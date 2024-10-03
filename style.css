@@ -1,0 +1,133 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap');*/
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Kumbh Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+      "YOPQ" 300; 
+    margin:0 auto;  
+    background-color:#19a1ad;
+}
+.container{
+    width:100vw;
+    height:100vh;
+    background-image:url("../profile-card-component-main/images/bg.png");
+    background-repeat: no-repeat;
+    background-size:100%;
+}
+.wrapper{
+    width:100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.card{
+    width:354px;
+    height:378px;
+    border-radius:15px;
+    overflow: hidden;
+    background-image:url("../profile-card-component-main/images/bg-pattern-card.svg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color:#ffffff;
+}
+.top{
+    
+    padding:1px;
+    margin-top:88px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circle{
+    width:100px;
+    height: 100px;
+    border-radius:100%;
+    border:3px solid #fff;
+    overflow: hidden;  
+}
+.name{
+    font-size:18px;
+    font-weight: 700;
+    margin-top:1.5rem;
+}
+.name>span{
+    font-weight:400;
+}
+.market{
+    font-size:18px;
+    font-weight: 700;
+    margin-top:0.5rem;
+}
+.line{
+    width:100%;
+    height: 1px;
+    background-color:#cecece;
+    margin-top:22px;
+}
+
+.bottom{
+    padding:10px;
+    display: flex;
+    justify-content: left;
+    text-align: center;
+    align-items: center;
+    font-weight: 900;
+}
+.follower,.likes,.pics{
+   margin-left:5px;
+   margin-right:15px;
+   margin-top:10px;
+    padding:4px;
+    line-height: 18px;
+}
+.market{
+    font-weight:normal;
+}
+.follower{
+    margin-left:2rem;
+}
+.likes{
+    margin-left:1.5rem;
+}
+.pics{
+    margin-left:2.4rem;
+}
+
+
+
+@media only screen and (max-width: 600px) { 
+    .container{
+        width:100%;
+    }
+    .wrapper{
+        width:100%;
+    }
+    .card{
+        width:80%;
+       
+    }
+    .bottom{
+        justify-content: center;
+        margin-left: -19px;
+    }
+    .leftTxt{
+        width:100%; 
+        padding-right:10px; 
+        
+    }
+    .rightTxt{
+        width:100%;
+        padding-right:10px; 
+    }  
+    
+}
