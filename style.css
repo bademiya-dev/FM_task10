@@ -54,6 +54,9 @@ body{
     border-radius:100%;
     border:3px solid #fff;
     overflow: hidden;  
+    background-image:url("../profile-card-component-main/images/image-victor.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 .name{
     font-size:18px;
